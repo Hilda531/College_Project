@@ -45,12 +45,12 @@ int main(){
         }
     }
     printf("\n\npress any key to exit");
-	getch();
+    getch();
     return 0;
 }
 
 int checkPrimeNumber(int n){
-	int i;
+    int i;
     for(i = 2; i <= n/2; ++i){
         if(n%i == 0){
             return 1;
