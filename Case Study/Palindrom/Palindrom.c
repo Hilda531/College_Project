@@ -22,7 +22,7 @@ void toString(int palin, int vcl){
 }
 
 int proses(char a[20]){
-	//Jika terdeteksi huruf vokal, maka nilai vocal akan bertambah dan di return
+    //Jika terdeteksi huruf vokal, maka nilai vocal akan bertambah dan di return
 
     int i = 0;
     int vocal = 0;
