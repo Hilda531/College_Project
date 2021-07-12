@@ -36,9 +36,9 @@ int matrix(){
     for (r = 0; r < 5; r++){
         for(c = 0; c < 5; c++){
             printf("%d ", Data[r][c]);
-		}
-		printf("\n"); //spasi baris
 	}
+	printf("\n"); //spasi baris
+    }
 }
 
 int count(){
@@ -50,8 +50,8 @@ int count(){
                   lebih besar dibanding nilai kolom*/
                 a -= Data[r][c];
             }
-		}
 	}
-	//hasil pengurangan ditampilkan
-	printf("Hasil pengurangan dari setiap element diagonal adalah: %d\n", a);
+     }
+     //hasil pengurangan ditampilkan
+     printf("Hasil pengurangan dari setiap element diagonal adalah: %d\n", a);
 }
