@@ -25,45 +25,41 @@ int main(){
     totalPtr = total;
 
     do{
-    inputest(test1Ptr, test2Ptr);       //mengambil input
+        inputest(test1Ptr, test2Ptr);       //mengambil input
 	displaytest(test1Ptr, test2Ptr);    //menampilkan hasil input
-    addtest(test1Ptr, test2Ptr, total); //menjumlahkan hasil input
+        addtest(test1Ptr, test2Ptr, total); //menjumlahkan hasil input
 
-    printf("\n\nMasukkan 0 untuk keluar : ");
+        printf("\n\nMasukkan 0 untuk keluar : ");
 	scanf("%d", &k);
 
 	printf("\n");
     } while(k);
 
-	getch();
+    getch();
     printf("----------------------------------------------------------");
-	return 0;
+    return 0;
 }
 
 //mengambil input test 1 dan test 2 sebanyak 5 kali
 void inputest(int test1[5], int test2[5]){
-	for(i = 0; i < 5; i++){
-        printf("Masukkan Test 1 dan Test 2 : ");
-		scanf("%d %d", test1 + i, test2 + i);
-	}
+    for(i = 0; i < 5; i++){
+	printf("Masukkan Test 1 dan Test 2 : ");
+	scanf("%d %d", test1 + i, test2 + i);
+    }
 }
 
 //menampilkan input test 1 dan test 2 dalam bentuk array
 void displaytest(int test1[5], int test2[5]){
-	for(i = 0; i < 5; i++){
+    for(i = 0; i < 5; i++){
         printf("\nTest1[%d] = %d Test2[%d] = %d", i , *(test1 + i), i , *(test2 + i));
-	}
+    }
 }
 
 //menampilkan hasil penjumlahan test 1 dan test 2
 void addtest(int test1[5], int test2[5], int total[5]){
     printf("\n");
-	for(i = 0; i < 5; i++){
+    for(i = 0; i < 5; i++){
         *(total + i) = *(test1 + i) + *(test2 + i);     //hasil penjumlahan dimasukkan ke variabel total menggunakan pointers
         printf("\nTotal[%d] = %d ", i, *(total + i));   //hasil ditampilkan
-	}
+    }
 }
-
-
-
-
