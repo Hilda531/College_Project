@@ -17,33 +17,33 @@ int main(){
 
 	while (i <= a){
 
-        printf("\nMasukkan perintah : ");
-        scanf(" %c", &b);
-        i+=1;
+        	printf("\nMasukkan perintah : ");
+        	scanf(" %c", &b);
+        	i+=1;
 
-        /*Jika bergerak ke Utara, maka Meong Bross akan bergerak sejauh 1 satuan
-        searah sumbu-Y positif*/
-        if(b == 'U'){
+        	/*Jika bergerak ke Utara, maka Meong Bross akan bergerak sejauh 1 satuan
+        	searah sumbu-Y positif*/
+        	if(b == 'U'){
 			y+=1;
 			printf ("Meong bross bergerak ke Utara\n");
 		}
 
-        /*Jika bergerak ke Selatan, maka Meong Bross akan bergerak sejauh 1 satuan
-        searah sumbu-Y negatif*/
-        else if(b == 'S'){
+        	/*Jika bergerak ke Selatan, maka Meong Bross akan bergerak sejauh 1 satuan
+        	searah sumbu-Y negatif*/
+        	else if(b == 'S'){
 			y-=1;
 			printf ("Meong bross bergerak ke Selatan\n");
 		}
 
-        /*Jika bergerak ke Timur, maka Meong Bross akan bergerak sejauh 1 satuan
-        searah sumbu-X positif*/
+        	/*Jika bergerak ke Timur, maka Meong Bross akan bergerak sejauh 1 satuan
+        	searah sumbu-X positif*/
 		else if(b == 'T'){
 			x+=1;
 			printf ("Meong bross bergerak ke Timur\n");
 		}
 
-        /*Jika bergerak ke Barat, maka Meong Bross akan bergerak sejauh 1 satuan
-        searah sumbu-X negatif*/
+        	/*Jika bergerak ke Barat, maka Meong Bross akan bergerak sejauh 1 satuan
+        	searah sumbu-X negatif*/
 		else if(b == 'B'){
 			x-=1;
 			printf ("Meong bross bergerak ke Barat\n");
@@ -51,7 +51,7 @@ int main(){
 
 		/*Jika mendapat input H, maka program akan terhenti*/
 		else if(b == 'H'){
-            printf ("Meong bross Berhenti\n");
+            		printf ("Meong bross Berhenti\n");
 			break;
 		}
 
