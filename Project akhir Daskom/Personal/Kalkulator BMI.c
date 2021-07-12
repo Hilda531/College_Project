@@ -67,12 +67,11 @@ int main(){
     //Menampilkan hasil kategori BMI pasien secara keseluruhan
     printf("\n========================================== HASIL ==========================================");
     printf("\nNo.\tNama \t\tUmur \t\tTB(cm) \t\tBB(kg) \t\tHasil");
-	printf("\n===========================================================================================");
+    printf("\n===========================================================================================");
 
     for (int j = 0; j < pasien; j++){
         keputusan(&bmi[j], j);
-        printf("\n%d \t%s \t\t%d thn \t\t%.2f \t\t%.2f \t\t%s", j+1, n[j].name, n[j].age,
-               n[j].height, n[j].weight, n[j].result);
+        printf("\n%d \t%s \t\t%d thn \t\t%.2f \t\t%.2f \t\t%s", j+1, n[j].name, n[j].age, n[j].height, n[j].weight, n[j].result);
     }
     printf("\n===========================================================================================\n");
     return 0;
