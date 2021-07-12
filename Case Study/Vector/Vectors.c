@@ -47,7 +47,7 @@ int main()
     printf("\na*b = %0.2f + j %0.2f", mul.re_val, mul.im_val);
 
     printf("\n\npress any key to exit");
-	getch();
+    getch();
     return 0;
 }
 
