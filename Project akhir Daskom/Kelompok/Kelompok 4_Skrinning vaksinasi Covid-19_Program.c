@@ -6,9 +6,9 @@ yang dapat menerima vaksin, yang tidak dapat menerima vaksin, ditunda, dan
 memerlukan konsultasi dokter akibat keterbatasan vaksin covid-19 yang ada.
 
 Peran dalam kelompok:
-Membuat program prototype signup dan login, tampilan tabel data akhir, dan
-perhitungan banyaknya pasien yang dapat vaksin, yang tidak, ditunda, dan perlu
-konsultasi dokter.
+Membuat program prototype signup dan login, tampilan tabel pendataan akhir, dan
+perhitungan banyaknya pasien yang akan mendapat vaksin, yang tidak, ditunda, atau 
+perlu konsultasi pada dokter.
 */
 
 #include <stdio.h>
